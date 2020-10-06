@@ -95,7 +95,7 @@ stages:
       condition: succeededOrFailed()
 
 - stage: DBAVerificationScript
-  displayName: 'Script database schema changes'
+  displayName: 'Script database schema changes.'
   dependsOn: Build
   jobs:
   - deployment: DBAVerificationScript
